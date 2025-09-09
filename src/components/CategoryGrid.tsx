@@ -29,7 +29,7 @@ const categories = [
     id: "polos-el-capote",
     name: "Polos El Capote",
     tagline: "Encuentra el look ideal en El Capote",
-    image: sneakerDropsImg,
+    image: "https://cdn4.telesco.pe/file/Wp0CirkITU1NhWIPXNv9FxDFgUSv6HMyW6nLirE_wMqKwUxRHmX7N19kq9OfGKkn9iQc9R8LjWxVsbxJIPrWCc-j1BYwaBAZLV7pT_yLEUPeMNEn-8TDoRVZFYWJIm61Z4yrr9FGRusp4Dp9-5Fc9wVablPtQzHNf5-G4fpNr6icMhivWe9k2fCMvL40cmk6L0MxetM5_q07YT02_BKQa10BUU1aXXiu8Fk-zH6rQ0P7My7GpyzjeWRCuq2qTVxBihwZgETq0b5MawaOvBn5aP5F8qLBl79i6zh1949BC9BtJAanegGsmhtanieoaApU5bqb8krTOSTbMoi551SmnA.jpg",
     preview: "👕 Polos de calidad premium disponibles",
     url: "https://telegram.me/ElCapoteBot",
     available: true
@@ -38,7 +38,7 @@ const categories = [
     id: "plagas-iberica",
     name: "Plagas Ibérica",
     tagline: "Control de Plagas en Madrid",
-    image: flashFashionImg,
+    image: "https://cdn4.telesco.pe/file/N5FxOTGSFxqGrv7CaQHXg5WeEGpMNrobC1L8EMoLUErXsGSD4G3UKtMkZ2RJDJOO65JOGCDPMS_ThJPxwBrKEkWe_H-u7QKNIc214ff2ll13GjWYTWOT-JIyHKVhsnSs64JxB1-DM-e_j4Rmo1ASzQW4hzCbt4hFf0JKs-7aEy2WxRXiWK_LRa8mEDbIp0F37ANAl3We8aktfS9BhlMTAOvIz6SkXQcmXp2pP0bzQCrfya-S8U6GuCMw4A6KRcXG0Un4RPRviueJ5SgDluit2mgfqyc5LaJn-jQH0d9KCrU_b5h2oDYEnc3ZM9R4f5wzxRnsOdJmMAPFHA34zt5p4w.jpg",
     preview: "🐛 Servicios profesionales de control de plagas",
     url: "https://telegram.me/PlagasIbericaBot",
     available: true
@@ -47,7 +47,7 @@ const categories = [
     id: "europa-press",
     name: "Europa Press",
     tagline: "Noticias y actualidad de España y del Mundo",
-    image: luxuryOutletImg,
+    image: "https://cdn4.telesco.pe/file/mk8XPlni9q7MrHVyz6pUowojsqsctk_XKV6HTOAIml4wouPMsbLWPjUFdG0t903IMQHPeGPe_1EYD5OxKY04JMZXMPPTJSEgUBg9ZEjumRnBLEaok6IOKRw-mcUq2KLvE_Ak_ZMqdoGxLLDsDrFdnvu1E-0K6D9PnyOCG3nad7vn6vCOyKQZ936fePDIEvfJQkGiD8c9GfRERzFWQDqVHMwpXEAQJgoApQMadrONjDOKdYQKlGI9nV2RNmKqzA52dLkdJ-9ntJFu6MkmzsEVFUWO62DsGz5QU57UZBozosBF215kecg0zalnuD9cy_PlCpQX2NEBbSaxcK_58m69jA.jpg",
     preview: "📰 Las últimas noticias al instante",
     url: "https://telegram.me/EuropaPressBot",
     available: true
