@@ -26,144 +26,167 @@ import petPerfectionImg from "@/assets/pet-perfection.jpg";
 
 const categories = [
   {
-    id: "sneaker-drops",
-    name: "Exclusive Sneaker Drops",
-    tagline: "Drops You Can't Miss",
+    id: "polos-el-capote",
+    name: "Polos El Capote",
+    tagline: "Encuentra el look ideal en El Capote",
     image: sneakerDropsImg,
-    preview: "🔥 Nike x Travis Scott drop — Only 200 pairs!"
+    preview: "👕 Polos de calidad premium disponibles",
+    url: "https://telegram.me/ElCapoteBot",
+    available: true
   },
   {
-    id: "flash-fashion",
-    name: "Flash Fashion Finds",
-    tagline: "Today Only Style",
+    id: "plagas-iberica",
+    name: "Plagas Ibérica",
+    tagline: "Control de Plagas en Madrid",
     image: flashFashionImg,
-    preview: "⏳ 24h flash sale — Oversized blazer $39."
+    preview: "🐛 Servicios profesionales de control de plagas",
+    url: "https://telegram.me/PlagasIbericaBot",
+    available: true
   },
   {
-    id: "luxury-outlet",
-    name: "Luxury Outlet Steals",
-    tagline: "Luxury for Less",
+    id: "europa-press",
+    name: "Europa Press",
+    tagline: "Noticias y actualidad de España y del Mundo",
     image: luxuryOutletImg,
-    preview: "💎 Gucci bag, 60% off, ships today."
+    preview: "📰 Las últimas noticias al instante",
+    url: "https://telegram.me/EuropaPressBot",
+    available: true
   },
   {
     id: "restocks",
     name: "Sold-Out Restocks",
-    tagline: "They're Back!",
+    tagline: "Coming Soon",
     image: restocksImg,
-    preview: "📦 PS5 restock now — tap to grab."
+    preview: "📦 Próximamente disponible",
+    available: false
   },
   {
     id: "weekend-escapes",
     name: "$99 Weekend Escapes",
-    tagline: "Getaway for Less",
+    tagline: "Coming Soon",
     image: weekendEscapesImg,
-    preview: "🌴 Miami 3 days, $99pp."
+    preview: "🌴 Próximamente disponible",
+    available: false
   },
   {
     id: "bucket-list",
     name: "Bucket List Adventures",
-    tagline: "Dream Trips Await",
+    tagline: "Coming Soon",
     image: bucketListImg,
-    preview: "🗺️ Safari in Kenya, 2 spots left."
+    preview: "🗺️ Próximamente disponible",
+    available: false
   },
   {
     id: "vip-events",
     name: "VIP Event Access",
-    tagline: "First In Line",
+    tagline: "Coming Soon",
     image: vipEventsImg,
-    preview: "🎤 Taylor Swift presale code."
+    preview: "🎤 Próximamente disponible",
+    available: false
   },
   {
     id: "foodie-experiences",
     name: "Secret Foodie Experiences",
-    tagline: "Hidden Dining Gems",
+    tagline: "Coming Soon",
     image: foodieExperiencesImg,
-    preview: "🍽️ Underground dinner, 8 seats."
+    preview: "🍽️ Próximamente disponible",
+    available: false
   },
   {
     id: "new-tech",
     name: "New Tech First",
-    tagline: "Latest Launches",
+    tagline: "Coming Soon",
     image: newTechImg,
-    preview: "📱 iPhone 17 Pro early access."
+    preview: "📱 Próximamente disponible",
+    available: false
   },
   {
     id: "gadgets",
     name: "Game-Changer Gadgets",
-    tagline: "Next-Gen Gear",
+    tagline: "Coming Soon",
     image: gadgetsImg,
-    preview: "⚡ Smart mug that heats forever."
+    preview: "⚡ Próximamente disponible",
+    available: false
   },
   {
     id: "gaming-gear",
     name: "Pro Gaming Gear",
-    tagline: "Play Like a Pro",
+    tagline: "Coming Soon",
     image: gamingGearImg,
-    preview: "🎮 Xbox Elite controller restock."
+    preview: "🎮 Próximamente disponible",
+    available: false
   },
   {
     id: "tiny-home",
     name: "Tiny Home Upgrades",
-    tagline: "Smart Space Living",
+    tagline: "Coming Soon",
     image: tinyHomeImg,
-    preview: "🛋️ Sofa bed, 40% off today."
+    preview: "🛋️ Próximamente disponible",
+    available: false
   },
   {
     id: "seasonal-home",
     name: "Seasonal Home Glow-Ups",
-    tagline: "Fresh for the Season",
+    tagline: "Coming Soon",
     image: seasonalHomeImg,
-    preview: "🍂 Autumn décor kit $49."
+    preview: "🍂 Próximamente disponible",
+    available: false
   },
   {
     id: "garden-kits",
     name: "Garden-to-Table Kits",
-    tagline: "Grow Your Own",
+    tagline: "Coming Soon",
     image: gardenKitsImg,
-    preview: "🌱 Herb garden set $25."
+    preview: "🌱 Próximamente disponible",
+    available: false
   },
   {
     id: "beauty-must-tries",
     name: "New Beauty Must-Tries",
-    tagline: "Glow Starts Here",
+    tagline: "Coming Soon",
     image: beautyMustTriesImg,
-    preview: "💖 Rare Beauty blush restock."
+    preview: "💖 Próximamente disponible",
+    available: false
   },
   {
     id: "wellness-retreats",
     name: "Wellness Retreats",
-    tagline: "Reset Your Mind",
+    tagline: "Coming Soon",
     image: wellnessRetreatsImg,
-    preview: "🧘 Bali yoga retreat $799."
+    preview: "🧘 Próximamente disponible",
+    available: false
   },
   {
     id: "fitness-gear",
     name: "Fitness Gear You'll Use",
-    tagline: "Upgrade Your Workout",
+    tagline: "Coming Soon",
     image: fitnessGearImg,
-    preview: "🏃 Lululemon joggers $59 today."
+    preview: "🏃 Próximamente disponible",
+    available: false
   },
   {
     id: "collectibles",
     name: "Rare Collectibles",
-    tagline: "Own the Rare",
+    tagline: "Coming Soon",
     image: collectiblesImg,
-    preview: "🎨 Banksy print — 3 available."
+    preview: "🎨 Próximamente disponible",
+    available: false
   },
   {
     id: "diy-masterpieces",
     name: "DIY Masterpieces",
-    tagline: "Make It Yourself",
+    tagline: "Coming Soon",
     image: diyMasterpiecesImg,
-    preview: "🎯 Ceramic kit $35."
+    preview: "🎯 Próximamente disponible",
+    available: false
   },
   {
     id: "pet-perfection",
     name: "Pet Perfection",
-    tagline: "For Your Furry Friend",
+    tagline: "Coming Soon",
     image: petPerfectionImg,
-    preview: "🐾 Dog raincoat $19."
+    preview: "🐾 Próximamente disponible",
+    available: false
   }
 ];
 
@@ -177,6 +200,15 @@ const CategoryGrid = () => {
         ? prev.filter(id => id !== categoryId)
         : [...prev, categoryId]
     );
+  };
+
+  const handleCategoryClick = (category: any) => {
+    if (category.available && category.url) {
+      window.open(category.url, '_blank');
+    } else if (category.available) {
+      toggleCategory(category.id);
+    }
+    // Do nothing for unavailable categories
   };
 
   const scrollToRegistration = () => {
@@ -208,9 +240,11 @@ const CategoryGrid = () => {
               className={`relative cursor-pointer group transition-all duration-300 ${
                 selectedCategories.includes(category.id)
                   ? 'ring-2 ring-whatsapp shadow-lg scale-105'
-                  : 'hover:shadow-lg hover:scale-102'
+                  : category.available 
+                    ? 'hover:shadow-lg hover:scale-102'
+                    : 'opacity-60 cursor-not-allowed'
               }`}
-              onClick={() => toggleCategory(category.id)}
+              onClick={() => handleCategoryClick(category)}
               onMouseEnter={() => setHoveredCategory(category.id)}
               onMouseLeave={() => setHoveredCategory(null)}
             >
@@ -234,6 +268,15 @@ const CategoryGrid = () => {
                     {category.tagline}
                   </p>
                 </div>
+                
+                {/* Coming Soon overlay */}
+                {!category.available && (
+                  <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+                    <div className="bg-white/90 px-3 py-1 rounded-full">
+                      <span className="text-xs font-semibold text-gray-700">Coming Soon</span>
+                    </div>
+                  </div>
+                )}
                 
                 {/* Selection indicator */}
                 {selectedCategories.includes(category.id) && (
