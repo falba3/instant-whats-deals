@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-whatsapp-shopping.jpg";
 
 const HeroSection = () => {
-  const scrollToRegistration = () => {
-    document.getElementById('registration')?.scrollIntoView({ behavior: 'smooth' });
+  const scrollToCategories = () => {
+    document.getElementById('categories')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -35,7 +35,7 @@ const HeroSection = () => {
             <Button 
               size="lg" 
               variant="hero"
-              onClick={scrollToRegistration}
+              onClick={scrollToCategories}
               className="text-lg px-8 py-4 h-auto"
             >
               Start Free
