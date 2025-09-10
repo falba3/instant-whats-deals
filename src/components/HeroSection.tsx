@@ -43,18 +43,6 @@ const HeroSection = () => {
           </div>
         </div>
         
-        {/* Floating WhatsApp notification mockup */}
-        <div className="absolute top-20 right-4 md:right-20 float-animation">
-          <div className="bg-white rounded-lg shadow-xl p-3 max-w-xs">
-            <div className="flex items-center gap-2 mb-2">
-              <div className="w-8 h-8 bg-whatsapp rounded-full flex items-center justify-center">
-                <span className="text-white text-xs font-bold">MS</span>
-              </div>
-              <span className="font-semibold text-sm">MiniStores</span>
-            </div>
-            <p className="text-xs text-gray-600">🔥 Nike x Travis Scott drop — Only 200 pairs!</p>
-          </div>
-        </div>
       </div>
     </section>
   );
