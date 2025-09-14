@@ -3,9 +3,9 @@ import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 // Import all category images
-import sneakerDropsImg from "@/assets/sneaker-drops.jpg";
-import flashFashionImg from "@/assets/flash-fashion.jpg";
-import luxuryOutletImg from "@/assets/luxury-outlet.jpg";
+//import sneakerDropsImg from "@/assets/sneaker-drops.jpg";
+//import flashFashionImg from "@/assets/flash-fashion.jpg";
+//import luxuryOutletImg from "@/assets/luxury-outlet.jpg";
 import restocksImg from "@/assets/restocks.jpg";
 import weekendEscapesImg from "@/assets/weekend-escapes.jpg";
 import bucketListImg from "@/assets/bucket-list.jpg";
@@ -53,20 +53,22 @@ const categories = [
     available: true
   },
   {
-    id: "restocks",
-    name: "Sold-Out Restocks",
-    tagline: "Coming Soon",
+    id: "amazon-offers",
+    name: "Amazon Best Offers!",
+    tagline: "Discover new promotions from Amazon",
     image: restocksImg,
-    preview: "📦 Próximamente disponible",
-    available: false
+    preview: "📦 Grandes Ofertas",
+    url: "https://telegram.me/AmazonBestOffersBot",
+    available: true
   },
   {
-    id: "weekend-escapes",
-    name: "$99 Weekend Escapes",
-    tagline: "Coming Soon",
+    id: "daily-pics",
+    name: "Deanna - Pic of the Day",
+    tagline: "Daily photography brought to you by Deanna",
     image: weekendEscapesImg,
-    preview: "🌴 Próximamente disponible",
-    available: false
+    preview: "🌴 Recibe las mejores fotos de Deanna",
+    url: "https://telegram.me/DeannaPicsBot",
+    available: true
   },
   {
     id: "bucket-list",
