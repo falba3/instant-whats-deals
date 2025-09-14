@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="text-center space-y-6">
           {/* Logo/Brand */}
           <div className="flex items-center justify-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-whatsapp to-secondary rounded-lg flex items-center justify-center">
+            <div className="w-8 h-8 bg-gradient-to-br from-Telegram to-secondary rounded-lg flex items-center justify-center">
               <span className="text-white text-sm font-bold">MS</span>
             </div>
             <span className="text-xl font-bold gradient-text">MiniStores</span>

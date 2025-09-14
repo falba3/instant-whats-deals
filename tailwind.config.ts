@@ -25,11 +25,11 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				
-				/* WhatsApp Brand Colors */
-				whatsapp: {
-					DEFAULT: 'hsl(var(--whatsapp))',
-					dark: 'hsl(var(--whatsapp-dark))',
-					light: 'hsl(var(--whatsapp-light))'
+				/* Telegram Brand Colors */
+				Telegram: {
+					DEFAULT: 'hsl(var(--Telegram))',
+					dark: 'hsl(var(--Telegram-dark))',
+					light: 'hsl(var(--Telegram-light))'
 				},
 				
 				primary: {

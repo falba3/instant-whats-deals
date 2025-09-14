@@ -20,15 +20,15 @@ const HeroSection = () => {
         <div className="space-y-6 animate-in fade-in duration-700">
           <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
             Get the Hottest{" "}
-            <span className="gradient-text bg-gradient-to-r from-white to-whatsapp-light bg-clip-text text-transparent">
+            <span className="gradient-text bg-gradient-to-r from-white to-Telegram-light bg-clip-text text-transparent">
               Deals & Drops
             </span>{" "}
             — First
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-            We deliver personalized MiniStores instantly to your WhatsApp.{" "}
-            <span className="font-semibold text-whatsapp-light">Be first, not last.</span>
+            We deliver personalized MiniStores instantly to your Telegram.{" "}
+            <span className="font-semibold text-Telegram-light">Be first, not last.</span>
           </p>
           
           <div className="pt-4">

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* WhatsApp MiniStores Design System - Mobile-First, Vibrant, Modern */
+/* Telegram MiniStores Design System - Mobile-First, Vibrant, Modern */
 
 @layer base {
   :root {
@@ -18,12 +18,12 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 15%;
 
-    /* WhatsApp Brand Colors */
-    --whatsapp: 142 70% 49%; /* #25D366 */
-    --whatsapp-dark: 142 85% 35%; /* #128C7E */
-    --whatsapp-light: 142 60% 85%;
+    /* Telegram Brand Colors */
+    --Telegram: 142 70% 49%; /* #25D366 */
+    --Telegram-dark: 142 85% 35%; /* #128C7E */
+    --Telegram-light: 142 60% 85%;
 
-    /* Primary - WhatsApp Green */
+    /* Primary - Telegram Green */
     --primary: 142 70% 49%;
     --primary-foreground: 0 0% 100%;
 
@@ -51,12 +51,12 @@
     --radius: 0.75rem;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--whatsapp)), hsl(var(--secondary)));
+    --gradient-primary: linear-gradient(135deg, hsl(var(--Telegram)), hsl(var(--secondary)));
     --gradient-hero: linear-gradient(135deg, hsl(var(--secondary)), hsl(245 100% 75%));
     --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(25 100% 70%));
 
     /* Shadows */
-    --shadow-card: 0 4px 20px -2px hsl(var(--whatsapp) / 0.1);
+    --shadow-card: 0 4px 20px -2px hsl(var(--Telegram) / 0.1);
     --shadow-hero: 0 10px 40px -10px hsl(var(--secondary) / 0.3);
     --shadow-float: 0 8px 30px -8px hsl(220 15% 15% / 0.15);
 
@@ -105,7 +105,7 @@
     --ring: 142 70% 49%;
 
     /* Dark mode gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--whatsapp)), hsl(var(--secondary)));
+    --gradient-primary: linear-gradient(135deg, hsl(var(--Telegram)), hsl(var(--secondary)));
     --gradient-hero: linear-gradient(135deg, hsl(220 15% 12%), hsl(245 58% 25%));
     --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(25 100% 50%));
 
@@ -150,19 +150,19 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background: hsl(var(--whatsapp));
+    background: hsl(var(--Telegram));
     border-radius: 3px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: hsl(var(--whatsapp-dark));
+    background: hsl(var(--Telegram-dark));
   }
 }
 
 @layer components {
   /* Gradient text utility */
   .gradient-text {
-    @apply bg-gradient-to-r from-whatsapp to-secondary bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-Telegram to-secondary bg-clip-text text-transparent;
   }
 
   /* Hero gradient background */

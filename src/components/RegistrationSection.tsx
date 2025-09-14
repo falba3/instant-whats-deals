@@ -39,10 +39,10 @@ const RegistrationSection = () => {
   ];
 
   return (
-    <section id="registration" className="py-20 px-4 bg-gradient-to-br from-whatsapp/5 to-secondary/5">
+    <section id="registration" className="py-20 px-4 bg-gradient-to-br from-Telegram/5 to-secondary/5">
       <div className="max-w-2xl mx-auto text-center">
         <div className="mb-12">
-          <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-whatsapp to-whatsapp-dark rounded-2xl flex items-center justify-center">
+          <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-Telegram to-Telegram-dark rounded-2xl flex items-center justify-center">
             <MessageCircle size={32} className="text-white" />
           </div>
           
@@ -51,7 +51,7 @@ const RegistrationSection = () => {
           </h2>
           
           <p className="text-xl text-muted-foreground">
-            Enter your mobile number to receive personalized shopping alerts directly on WhatsApp
+            Enter your mobile number to receive personalized shopping alerts directly on Telegram
           </p>
         </div>
 
@@ -90,34 +90,34 @@ const RegistrationSection = () => {
             {isSubmitting ? (
               <>
                 <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin mr-2" />
-                Connecting to WhatsApp...
+                Connecting to Telegram...
               </>
             ) : (
               <>
                 <MessageCircle size={20} className="mr-2" />
-                Send to My WhatsApp
+                Send to My Telegram
               </>
             )}
           </Button>
 
           <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
             <Shield size={16} />
-            <span>We'll send MiniStores directly to your WhatsApp. No spam, ever.</span>
+            <span>We'll send MiniStores directly to your Telegram. No spam, ever.</span>
           </div>
         </form>
 
         {/* Trust indicators */}
         <div className="grid grid-cols-3 gap-4 mt-12 pt-8 border-t border-border/50">
           <div className="text-center">
-            <div className="text-2xl font-bold text-whatsapp">10K+</div>
+            <div className="text-2xl font-bold text-Telegram">10K+</div>
             <div className="text-sm text-muted-foreground">Active Users</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-whatsapp">50+</div>
+            <div className="text-2xl font-bold text-Telegram">50+</div>
             <div className="text-sm text-muted-foreground">Daily Deals</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-whatsapp">95%</div>
+            <div className="text-2xl font-bold text-Telegram">95%</div>
             <div className="text-sm text-muted-foreground">Satisfaction</div>
           </div>
         </div>

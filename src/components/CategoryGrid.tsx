@@ -228,7 +228,7 @@ const CategoryGrid = () => {
             Select the categories you love and get instant alerts when deals drop
           </p>
           {selectedCategories.length > 0 && (
-            <div className="inline-flex items-center gap-2 bg-whatsapp/10 text-whatsapp px-4 py-2 rounded-full">
+            <div className="inline-flex items-center gap-2 bg-Telegram/10 text-Telegram px-4 py-2 rounded-full">
               <Check size={16} />
               {selectedCategories.length} categories selected
             </div>
@@ -241,7 +241,7 @@ const CategoryGrid = () => {
               key={category.id}
               className={`relative cursor-pointer group transition-all duration-300 ${
                 selectedCategories.includes(category.id)
-                  ? 'ring-2 ring-whatsapp shadow-lg scale-105'
+                  ? 'ring-2 ring-Telegram shadow-lg scale-105'
                   : category.available 
                     ? 'hover:shadow-lg hover:scale-102'
                     : 'opacity-60 cursor-not-allowed'
@@ -282,7 +282,7 @@ const CategoryGrid = () => {
                 
                 {/* Selection indicator */}
                 {selectedCategories.includes(category.id) && (
-                  <div className="absolute top-2 right-2 w-6 h-6 bg-whatsapp rounded-full flex items-center justify-center">
+                  <div className="absolute top-2 right-2 w-6 h-6 bg-Telegram rounded-full flex items-center justify-center">
                     <Check size={14} className="text-white" />
                   </div>
                 )}
@@ -292,7 +292,7 @@ const CategoryGrid = () => {
                   <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 -translate-y-full z-10">
                     <div className="bg-white rounded-lg shadow-xl p-3 min-w-64 border">
                       <div className="flex items-center gap-2 mb-2">
-                        <div className="w-6 h-6 bg-whatsapp rounded-full flex items-center justify-center">
+                        <div className="w-6 h-6 bg-Telegram rounded-full flex items-center justify-center">
                           <span className="text-white text-xs font-bold">MS</span>
                         </div>
                         <span className="font-semibold text-sm">MiniStores</span>

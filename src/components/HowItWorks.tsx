@@ -11,8 +11,8 @@ const HowItWorks = () => {
     {
       icon: Smartphone,
       title: "Get Instant MiniStores",
-      description: "Visual, shoppable alerts direct to WhatsApp",
-      color: "text-whatsapp"
+      description: "Visual, shoppable alerts direct to Telegram",
+      color: "text-Telegram"
     },
     {
       icon: ShoppingBag,
