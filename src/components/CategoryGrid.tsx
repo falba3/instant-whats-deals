@@ -6,13 +6,13 @@ import { Button } from "@/components/ui/button";
 //import sneakerDropsImg from "@/assets/sneaker-drops.jpg";
 //import flashFashionImg from "@/assets/flash-fashion.jpg";
 //import luxuryOutletImg from "@/assets/luxury-outlet.jpg";
-import restocksImg from "@/assets/restocks.jpg";
-import weekendEscapesImg from "@/assets/weekend-escapes.jpg";
-import bucketListImg from "@/assets/bucket-list.jpg";
-import vipEventsImg from "@/assets/vip-events.jpg";
-import foodieExperiencesImg from "@/assets/foodie-experiences.jpg";
-import newTechImg from "@/assets/new-tech.jpg";
-import gadgetsImg from "@/assets/gadgets.jpg";
+// import restocksImg from "@/assets/restocks.jpg";
+// import weekendEscapesImg from "@/assets/weekend-escapes.jpg";
+// import bucketListImg from "@/assets/bucket-list.jpg";
+// import vipEventsImg from "@/assets/vip-events.jpg";
+// import foodieExperiencesImg from "@/assets/foodie-experiences.jpg";
+// import newTechImg from "@/assets/new-tech.jpg";
+// import gadgetsImg from "@/assets/gadgets.jpg";
 import gamingGearImg from "@/assets/gaming-gear.jpg";
 import tinyHomeImg from "@/assets/tiny-home.jpg";
 import seasonalHomeImg from "@/assets/seasonal-home.jpg";
@@ -56,59 +56,64 @@ const categories = [
     id: "amazon-offers",
     name: "Amazon Best Offers!",
     tagline: "Discover new promotions from Amazon",
-    image: restocksImg,
+    image: "https://portal.gifted.ph/storage/images/medium/39d22feb587ab1bbecfbd25ea08bad93.jpg",
     preview: "📦 Grandes Ofertas",
     url: "https://telegram.me/AmazonBestOffersBot",
     available: true
   },
   {
     id: "daily-pics",
-    name: "Deanna - Pic of the Day",
+    name: "Pic of the Day",
     tagline: "Daily photography brought to you by Deanna",
-    image: weekendEscapesImg,
+    image: "https://www.natcam.com/wp-content/uploads/2020/07/103241471_24_105_1.jpgweekendEscapesImg",
     preview: "🌴 Recibe las mejores fotos de Deanna",
     url: "https://telegram.me/DeannaPicsBot",
     available: true
   },
   {
-    id: "bucket-list",
-    name: "Bucket List Adventures",
-    tagline: "Coming Soon",
-    image: bucketListImg,
-    preview: "🗺️ Próximamente disponible",
-    available: false
+    id: "real-madrid",
+    name: "Real Madrid Fans",
+    tagline: "¡Hala Madrid!",
+    image: "https://imageio.forbes.com/i-forbesimg/media/lists/teams/real-madrid_416x416.jpg?format=jpg",
+    preview: "🗺️ ¡Hala Madrid!",
+    url: "t.me/FansRealMadridBot",
+    available: true
   },
   {
-    id: "vip-events",
-    name: "VIP Event Access",
-    tagline: "Coming Soon",
-    image: vipEventsImg,
-    preview: "🎤 Próximamente disponible",
-    available: false
+    id: "deanna-celebrities",
+    name: "Latest on Celebrities",
+    tagline: "All the latest in celebrity news",
+    image: "https://www.celebrity-cutouts.com.au/wp-content/uploads/2023/05/bad-bunny-white-outfit-buddy.jpg",
+    preview: "All the latest in celebrity news",
+    url: "t.me/CelebsNewsBot",
+    available: true
   },
   {
-    id: "foodie-experiences",
-    name: "Secret Foodie Experiences",
-    tagline: "Coming Soon",
-    image: foodieExperiencesImg,
-    preview: "🍽️ Próximamente disponible",
-    available: false
+    id: "laura-homes",
+    name: "Laura Homes",
+    tagline: "Elegant living, made simple",
+    image: "https://i.pinimg.com/736x/4d/62/6f/4d626f34e71b87949f2bbf44cf4c0232.jpg",
+    preview: "Elegant living, made simple",
+    url: "t.me/LauraHomesBot",
+    available: true
   },
   {
-    id: "new-tech",
-    name: "New Tech First",
-    tagline: "Coming Soon",
-    image: newTechImg,
-    preview: "📱 Próximamente disponible",
-    available: false
+    id: "special-gifts",
+    name: "Special Gifts",
+    tagline: "Special gifts for every special someone",
+    image: "https://img.freepik.com/free-photo/nice-gift-with-red-ribbon-ready-birthday_1156-489.jpgnewTechImg",
+    preview: "Special gifts for every special someone",
+    url: "t.me/DeannaGiftsBot",
+    available: true
   },
   {
-    id: "gadgets",
-    name: "Game-Changer Gadgets",
-    tagline: "Coming Soon",
-    image: gadgetsImg,
-    preview: "⚡ Próximamente disponible",
-    available: false
+    id: "well-being",
+    name: "Health and Well Being",
+    tagline: "Healthy living for a happier you",
+    image: "https://img.freepik.com/free-photo/close-up-young-pleasant-girl-smiling-looking-friendly-happy-cute-face-expression-smile-white-teeth-standing-casual-blouse-against-white-background_176420-47612.jpg",
+    preview: "Healthy living for a happier you",
+    url: "t.me/DeannaWellBeingBot",
+    available: true
   },
   {
     id: "gaming-gear",
