@@ -54,7 +54,7 @@ const categories = [
   },
   {
     id: "amazon-offers",
-    name: "Amazon Best Offers!",
+    name: "Amazon Best Offers",
     tagline: "Discover new promotions from Amazon",
     image: "https://portal.gifted.ph/storage/images/medium/39d22feb587ab1bbecfbd25ea08bad93.jpg",
     preview: "📦 Grandes Ofertas",
@@ -65,7 +65,7 @@ const categories = [
     id: "daily-pics",
     name: "Pic of the Day",
     tagline: "Daily photography brought to you by Deanna",
-    image: "https://www.natcam.com/wp-content/uploads/2020/07/103241471_24_105_1.jpgweekendEscapesImg",
+    image: "https://png.pngtree.com/thumb_back/fh260/background/20220314/pngtree-slr-camera-on-white-background-image_1051451.jpg",
     preview: "🌴 Recibe las mejores fotos de Deanna",
     url: "https://telegram.me/DeannaPicsBot",
     available: true
@@ -76,7 +76,7 @@ const categories = [
     tagline: "¡Hala Madrid!",
     image: "https://imageio.forbes.com/i-forbesimg/media/lists/teams/real-madrid_416x416.jpg?format=jpg",
     preview: "🗺️ ¡Hala Madrid!",
-    url: "t.me/FansRealMadridBot",
+    url: "https://telegram.me/FansRealMadridBot",
     available: true
   },
   {
@@ -85,7 +85,7 @@ const categories = [
     tagline: "All the latest in celebrity news",
     image: "https://www.celebrity-cutouts.com.au/wp-content/uploads/2023/05/bad-bunny-white-outfit-buddy.jpg",
     preview: "All the latest in celebrity news",
-    url: "t.me/CelebsNewsBot",
+    url: "https://telegram.me/CelebsNewsBot",
     available: true
   },
   {
@@ -94,16 +94,16 @@ const categories = [
     tagline: "Elegant living, made simple",
     image: "https://i.pinimg.com/736x/4d/62/6f/4d626f34e71b87949f2bbf44cf4c0232.jpg",
     preview: "Elegant living, made simple",
-    url: "t.me/LauraHomesBot",
+    url: "https://telegram.me/LauraHomesBot",
     available: true
   },
   {
     id: "special-gifts",
     name: "Special Gifts",
     tagline: "Special gifts for every special someone",
-    image: "https://img.freepik.com/free-photo/nice-gift-with-red-ribbon-ready-birthday_1156-489.jpgnewTechImg",
+    image: "https://i.pinimg.com/736x/0f/3f/a9/0f3fa92172441d78168838c04c7e58bc.jpg",
     preview: "Special gifts for every special someone",
-    url: "t.me/DeannaGiftsBot",
+    url: "https://telegram.me/DeannaGiftsBot",
     available: true
   },
   {
@@ -112,88 +112,98 @@ const categories = [
     tagline: "Healthy living for a happier you",
     image: "https://img.freepik.com/free-photo/close-up-young-pleasant-girl-smiling-looking-friendly-happy-cute-face-expression-smile-white-teeth-standing-casual-blouse-against-white-background_176420-47612.jpg",
     preview: "Healthy living for a happier you",
-    url: "t.me/DeannaWellBeingBot",
+    url: "https://telegram.me/DeannaWellBeingBot",
     available: true
   },
   {
-    id: "gaming-gear",
-    name: "Pro Gaming Gear",
-    tagline: "Coming Soon",
-    image: gamingGearImg,
-    preview: "🎮 Próximamente disponible",
-    available: false
+    id: "suggestions",
+    name: "Deanna Suggestions",
+    tagline: "All kinds of recommendations by Deanna",
+    image: "https://plus.unsplash.com/premium_photo-1705010662192-a1d7bca9d516?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c3VnZ2VzdGlvbnxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000",
+    preview: "All kinds of recommendations by Deanna",
+    url: "https://telegram.me/DeannaSuggestionsBot",
+    available: true
   },
   {
-    id: "tiny-home",
-    name: "Tiny Home Upgrades",
-    tagline: "Coming Soon",
-    image: tinyHomeImg,
-    preview: "🛋️ Próximamente disponible",
-    available: false
+    id: "mental-health",
+    name: "Deanna Mental Healthy",
+    tagline: "Clarity. Care. Calm",
+    image: "https://static.vecteezy.com/system/resources/thumbnails/006/792/345/small_2x/mental-health-blooming-human-brain-line-icon-mind-concept-love-life-new-page-illustration-free-vector.jpg",
+    preview: "Clarity. Care. Calm",
+    url: "https://telegram.me/DeannaMentalHealthBot",
+    available: true
   },
   {
-    id: "seasonal-home",
-    name: "Seasonal Home Glow-Ups",
-    tagline: "Coming Soon",
-    image: seasonalHomeImg,
-    preview: "🍂 Próximamente disponible",
-    available: false
+    id: "product-of-the-day",
+    name: "Product of the Day",
+    tagline: "Find the products that make life easier",
+    image: "https://images.pexels.com/photos/2536965/pexels-photo-2536965.jpeg",
+    preview: "Find the products that make life easier",
+    url: "https://telegram.me/ProductOfTheDayBot",
+    available: true
   },
   {
-    id: "garden-kits",
-    name: "Garden-to-Table Kits",
-    tagline: "Coming Soon",
-    image: gardenKitsImg,
-    preview: "🌱 Próximamente disponible",
-    available: false
+    id: "todays-history",
+    name: "Today's History",
+    tagline: "History, one day at a time",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/World_Map_1689.JPG/500px-World_Map_1689.JPG",
+    preview: "History, one day at a time",
+    url: "https://telegram.me/TodaysHistoryBot",
+    available: true
   },
   {
-    id: "beauty-must-tries",
-    name: "New Beauty Must-Tries",
-    tagline: "Coming Soon",
-    image: beautyMustTriesImg,
-    preview: "💖 Próximamente disponible",
-    available: false
+    id: "science-in-a-snap",
+    name: "Science in a Snap",
+    tagline: "Your quick guide to understanding big discoveries",
+    image: "https://www.biologyforlife.com/uploads/2/2/3/9/22392738/compound-microscope-m500-left.jpg?376",
+    preview: "Your quick guide to understanding big discoveries",
+    url: "https://telegram.me/ScienceInASnapBot",
+    available: true
   },
   {
-    id: "wellness-retreats",
-    name: "Wellness Retreats",
-    tagline: "Coming Soon",
-    image: wellnessRetreatsImg,
-    preview: "🧘 Próximamente disponible",
-    available: false
+    id: "recipes",
+    name: "Deanna Recipes",
+    tagline: "Your favorite dishes by Deanna",
+    image: "https://m.media-amazon.com/images/I/61ZnT0Q9BpL.jpg",
+    preview: "Your favorite dishes by Deanna",
+    url: "https://telegram.me/DeannaRecipesBot",
+    available: true
   },
   {
-    id: "fitness-gear",
-    name: "Fitness Gear You'll Use",
-    tagline: "Coming Soon",
-    image: fitnessGearImg,
-    preview: "🏃 Próximamente disponible",
-    available: false
+    id: "who-is",
+    name: "Who is?",
+    tagline: "Iconic people, everyday",
+    image: "https://www.baps.org.uk/wp-content/uploads/2020/05/mystery-person.jpg",
+    preview: "Iconic people, everyday",
+    url: "https://telegram.me/WhoIsDailyBot",
+    available: true
   },
   {
-    id: "collectibles",
-    name: "Rare Collectibles",
-    tagline: "Coming Soon",
-    image: collectiblesImg,
-    preview: "🎨 Próximamente disponible",
-    available: false
+    id: "sports-products",
+    name: "Sports Products",
+    tagline: "Gear up. Game on",
+    image: "https://www.shutterstock.com/image-photo/sport-white-background-sprinter-leaving-600nw-2223589957.jpg",
+    preview: "Gear up. Game on",
+    url: "https://telegram.me/SportsProductsBot",
+    available: true
   },
   {
-    id: "diy-masterpieces",
-    name: "DIY Masterpieces",
-    tagline: "Coming Soon",
-    image: diyMasterpiecesImg,
-    preview: "🎯 Próximamente disponible",
-    available: false
+    id: "mediamarkt-offers",
+    name: "Mediamarkt Offers",
+    tagline: "Discover the hottest Mediamarkt Promos",
+    image: "https://www.miramarcc.com/wp-content/uploads/2024/07/cd62b602311fcf7b7ef55864a2ea1d5a2f58070f.jpg",
+    preview: "Discover the hottest Mediamarkt Promos",
+    url: "https://telegram.me/MediamarktOffersBot",
+    available: true
   },
   {
-    id: "pet-perfection",
-    name: "Pet Perfection",
-    tagline: "Coming Soon",
-    image: petPerfectionImg,
-    preview: "🐾 Próximamente disponible",
-    available: false
+    id: "pinterest-trends",
+    name: "Pinterest Trends",
+    tagline: "Pinterest's Latest Trends!",
+    image: "https://images.ctfassets.net/h67z7i6sbjau/5zteWRcC1qbgLZoClcMmYl/a0391fdc321eddce7de41152108723b5/Brand_Guidelines_hero_2x.jpg?fm=webp&q=85",
+    preview: "Pinterest's Latest Trends!",
+    url: "https://telegram.me/PinterestTrendsBot",
+    available: true
   }
 ];
 
