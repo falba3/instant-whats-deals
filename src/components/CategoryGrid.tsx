@@ -208,24 +208,12 @@ const categories = [
 ];
 
 const CategoryGrid = () => {
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [hoveredCategory, setHoveredCategory] = useState<string | null>(null);
-
-  const toggleCategory = (categoryId: string) => {
-    setSelectedCategories(prev => 
-      prev.includes(categoryId) 
-        ? prev.filter(id => id !== categoryId)
-        : [...prev, categoryId]
-    );
-  };
 
   const handleCategoryClick = (category: any) => {
     if (category.available && category.url) {
       window.open(category.url, '_blank');
-    } else if (category.available) {
-      toggleCategory(category.id);
     }
-    // Do nothing for unavailable categories
   };
 
   const scrollToRegistration = () => {
@@ -242,12 +230,6 @@ const CategoryGrid = () => {
           <p className="text-xl text-muted-foreground mb-8">
             Select the categories you love and get instant alerts when deals drop
           </p>
-          {selectedCategories.length > 0 && (
-            <div className="inline-flex items-center gap-2 bg-Telegram/10 text-Telegram px-4 py-2 rounded-full">
-              <Check size={16} />
-              {selectedCategories.length} categories selected
-            </div>
-          )}
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 mb-12">
@@ -255,11 +237,9 @@ const CategoryGrid = () => {
             <div
               key={category.id}
               className={`relative cursor-pointer group transition-all duration-300 ${
-                selectedCategories.includes(category.id)
-                  ? 'ring-2 ring-Telegram shadow-lg scale-105'
-                  : category.available 
-                    ? 'hover:shadow-lg hover:scale-102'
-                    : 'opacity-60 cursor-not-allowed'
+                category.available 
+                  ? 'hover:shadow-lg hover:scale-102'
+                  : 'opacity-60 cursor-not-allowed'
               }`}
               onClick={() => handleCategoryClick(category)}
               onMouseEnter={() => setHoveredCategory(category.id)}
@@ -296,11 +276,11 @@ const CategoryGrid = () => {
                 )}
                 
                 {/* Selection indicator */}
-                {selectedCategories.includes(category.id) && (
+                {/* {selectedCategories.includes(category.id) && (
                   <div className="absolute top-2 right-2 w-6 h-6 bg-Telegram rounded-full flex items-center justify-center">
                     <Check size={14} className="text-white" />
                   </div>
-                )}
+                )} */}
                 
                 {/* Preview on hover */}
                 {hoveredCategory === category.id && (
@@ -321,7 +301,7 @@ const CategoryGrid = () => {
           ))}
         </div>
         
-        {selectedCategories.length > 0 && (
+        {/* {selectedCategories.length > 0 && (
           <div className="text-center">
             <Button
               size="lg"
@@ -332,7 +312,7 @@ const CategoryGrid = () => {
               Get My MiniStores ({selectedCategories.length} selected)
             </Button>
           </div>
-        )}
+        )} */}
       </div>
     </section>
   );
