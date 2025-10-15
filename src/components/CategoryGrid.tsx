@@ -197,12 +197,12 @@ const categories = [
     available: true
   },
   {
-    id: "pinterest-trends",
-    name: "Pinterest Trends",
-    tagline: "Pinterest's Latest Trends!",
-    image: "https://images.ctfassets.net/h67z7i6sbjau/5zteWRcC1qbgLZoClcMmYl/a0391fdc321eddce7de41152108723b5/Brand_Guidelines_hero_2x.jpg?fm=webp&q=85",
-    preview: "Pinterest's Latest Trends!",
-    url: "https://telegram.me/PinterestTrendsBot",
+    id: "bibigo-suggestions",
+    name: "Bibigo Suggestions Today",
+    tagline: "Live Delicious",
+    image: "https://mms.businesswire.com/media/20240124582179/en/2007471/5/Bibigo_Logo_RGB.jpg?download=1",
+    preview: "Live Delicious",
+    url: "https://telegram.me/BibigoSuggestionsBot",
     available: true
   }
 ];
